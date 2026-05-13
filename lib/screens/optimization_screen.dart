@@ -33,6 +33,8 @@ class _OptimizationScreenState extends State<OptimizationScreen> with SingleTick
           if (widget.methodChannelName == 'boostRAM') _message = "Остановлено процессов: $result.";
           else if (widget.methodChannelName == 'coolCPU') _message = "Температура снижена до $result°C.";
           else if (widget.methodChannelName == 'scanSecurity') _message = "Проверено $result пакетов. Угроз нет.";
+          else if (widget.methodChannelName == 'guardPrivacy') _message = "Анализ завершен. $result угроз отслежено.";
+          else if (widget.methodChannelName == 'saveBattery') _message = "Фоновые процессы остановлены. Энергия сохранена.";
           else _message = "Операция успешно завершена.";
         });
       }

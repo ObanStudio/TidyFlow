@@ -87,7 +87,7 @@ class _DashboardTabState extends State<DashboardTab> {
                 _build3DStatCard(Icons.thermostat, 'ЦП', '${temperature.toStringAsFixed(1)}°C', AppTheme.accentPink),
               ],
             ),
-            const SizedBox(height: 100), // Отступ для меню
+            const SizedBox(height: 100), 
           ],
         ),
       ),
